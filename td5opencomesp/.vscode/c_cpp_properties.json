@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "name": "ESP32-P4 Arduino",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/luca/Data/Projects/Software/Arduino/sketch/libraries/**",
+                "/home/luca/.arduino15/packages/esp32/**"
+            ],
+            "defines": [
+                "ARDUINO=10819",
+                "ARDUINO_ARCH_ESP32",
+                "ESP32",
+                "ARDUINO_ESP32P4_DEV",
+                "BOARD_HAS_PSRAM"
+            ],
+            "compilerPath": "/home/luca/.arduino15/packages/esp32/tools/esp-rv32/2411/bin/riscv32-esp-elf-g++",
+            "cppStandard": "gnu++17",
+            "cStandard": "gnu17",
+            "intelliSenseMode": "linux-gcc-x64"
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
